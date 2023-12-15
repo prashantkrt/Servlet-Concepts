@@ -30,9 +30,9 @@ public class FirstServlet extends HttpServlet {
 		//method chaining
 //		request.getServletContext().getRequestDispatcher("/SecondServlet").forward(request, response);
 //		request.getRequestDispatcher("/SecondServlet").include(request, response);
-		request.getServletContext().getRequestDispatcher("/SecondServlet").include(request, response);
+//		request.getServletContext().getRequestDispatcher("/SecondServlet").include(request, response);
 		
-		response.sendRedirect("/Servlet_RequestDispatching/response1.html");
+//		response.sendRedirect("/Servlet_RequestDispatching/response1.html");
 		
 		
 	}
